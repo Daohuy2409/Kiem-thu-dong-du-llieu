@@ -19,8 +19,8 @@ public class Main {
             b = -b;
         }
 
-        int n = 0;
-        for (int i = 1; i <= a && i <= b; i++) {
+        int n = 1;
+        for (int i = 2; i <= a && i <= b; i++) {
             if (a % i == 0 && b % i == 0) {
                 n = n + 1;
             }
